@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -45,4 +46,14 @@ group :development do
   gem 'spring'
 end
 
+# Use haml as the html templating system
 gem 'haml'
+
+# Use autoprefier for vendor prefixes
+gem 'autoprefixer-rails'
+
+# Use sitemap_generator for generating sitemap.xml file
+gem 'sitemap_generator'
+
+# Use yaml_db for database-independent dumping and restoring data
+gem 'yaml_db'
